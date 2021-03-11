@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;0,700&family=Montserrat:ital,wght@0,700;1,500&display=swap');
+
+    *{
+        padding:0;
+        margin:0;
+    }
+    /* font-family: 'Jost', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+    body{
+        background-color:#f3f3f3;
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: 500;
+      
+    }
+    .navbar{
+      
+        display:flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+        border-bottom:1px solid #ddd;
+        background-color:#f6e700;
+       align-items: center;
+
+
+        padding:10px 10px 0px  50px;
+    }
+
+ 
+
+    .navbar ul{
+        list-style-type:none;
+        display:flex;
+        flex-wrap:wrap;
+        padding:10px;
+        line-height:15px;
+       
+     
+       
+      
+    }
+    .navbar ul li{
+        padding-left:20px;
+        font-size:25px;
+        padding:10px;
+        text-transform:uppercase;
+       
+    }
+    .navbar ul li a{
+        text-decoration:none;
+        color:#111;
+        padding:5px 10px;
+        border-radius:10px;
+        transition:all 0.3s ease;
+    }
+    .active{
+        background:#fff;
+        box-shadow:0px 5px 10px rgba(0,0,0,0.15);
+    }
+
+
+.navbar ul a:hover{
+    background:#fff;
+    color:black;
+    box-shadow:0px 5px 10px rgba(0,0,0,0.15);
+}
+    
+
+@media screen and (max-width: 720px) {
+  
+  
+    .navbar{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+      
+    }
+
+   
+  }

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;0,700&family=Montserrat:ital,wght@0,700;1,500&display=swap');
+
+
+/*   if (!$result) {
+            echo "Error : " . $sql . "<br>" . mysqli_error($con);
+        } */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500;
+    
+
+}
+
+table{
+            
+    border-collapse: collapse;
+    margin:10px auto;
+    background:#fff;
+    text-align:center;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.15);
+  
+}
+
+
+th {
+padding-top: 5px;
+padding-bottom: 12px;
+width:105px;
+background-color: #f6e700;
+color: #111;
+border: 1px solid #ddd;
+padding: 8px;
+text-align:center;
+padding:10px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+td{
+padding:20px;
+width:150px;
+
+}
+tr{
+width:150px;
+}
+.table .btn{
+padding:10px 15px;
+text-decoration:none;
+color:#111;
+background-color:#f6e700;
+border-radius:10px;
+font-family: 'Jost', sans-serif;
+}
+tr:hover {background-color: #f6e700;}
+
+h1{
+    text-align:center;
+
+}
+h1 span{
+    color: #f6e700;
+    line-height: 100px;
+}
+h1{
+    animation:fadeout .9s ease; 
+
+}
+@keyframes fadeout{
+    0%{
+        opacity: 0;
+        
+    }
+
+    100%{
+        opacity: 1;
+      
+    }
+}
